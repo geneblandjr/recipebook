@@ -14,7 +14,8 @@
                 <img src= "#" alt="" class="image-responsive" style="max-height: 50px;">
             </span>
         </a>
-        <app-recipe-item *ngFor="let recipe of recipes"></app-recipe-item>
+        <app-recipe-item *ngFor="let recipe of recipes" [recipe]="tecipe"></app-recipe-item>
+
     </div>
 </div>
 
